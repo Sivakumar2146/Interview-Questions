@@ -10,7 +10,7 @@ public class ReverseString {
 		String str="SIVA";
 		String rev="";
 		
-	/*	int len=str.length();  //4
+		int len=str.length();  //4
            
 		for (int i=len-1;i>=0;i--)
 		{
@@ -20,7 +20,7 @@ public class ReverseString {
 	
 	System.out.println("Revered string is here:"  +   rev);
 	
-	*/
+	
 	
 	//2 using character  array
 		
@@ -33,7 +33,7 @@ public class ReverseString {
 		}
 		System.out.println("Revered string is here:"  +   rev);	
 		
-	
+	3) String builder
    	StringBuffer sb=new StringBuffer(str);
     System.out.println(	sb.reverse());
 		
