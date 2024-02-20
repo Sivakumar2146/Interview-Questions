@@ -1,0 +1,24 @@
+package SDTE_Program;
+
+import java.util.Scanner;
+
+public class Reverse_A_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Before the number : ");
+
+		int num = sc.nextInt();
+
+		StringBuffer rev = new StringBuffer(String.valueOf(num));
+
+		rev.reverse();
+
+		System.out.println("After the number " + rev);
+
+	}
+
+}
