@@ -1,0 +1,21 @@
+package SDTE_Program;
+
+public class Reverse_A_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String sp="Software Testing";
+		
+		System.out.println("before the string"+" " +sp);
+		
+		
+		StringBuffer rev=new StringBuffer(sp);
+		
+		rev.reverse();
+		
+		System.out.println("After the string"+  " " +rev);
+		
+	}
+
+}
