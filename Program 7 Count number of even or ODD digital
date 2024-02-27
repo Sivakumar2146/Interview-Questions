@@ -1,1 +1,32 @@
+package SDTE_Program;
+
+public class Count_OF_Num_ODD_or_EVEN {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num=12345678;
+		
+		int even_count=0;
+		int odd_count=0;
+		
+		while(num>0)
+		{
+		    int div=num%10;
+		    
+		    if(div%2==0)
+		    {
+		    	even_count++;
+		    }
+		    else
+		    {
+		    	odd_count++;
+		    }
+		    num=num/10;
+		}
+		   System.out.println("Number of digit - Even"+even_count);
+		   System.out.println("Number of digit - Even"+odd_count);
+	}
+
+}
 
