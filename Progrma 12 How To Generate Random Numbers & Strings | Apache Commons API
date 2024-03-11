@@ -1,0 +1,23 @@
+package SDTE_Program;
+
+import java.util.Random;
+
+public class How_To_Generate_Random_Numbers_Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Random ran=new Random();
+		
+	int rant_num=	ran.nextInt(1000);
+	
+	System.out.println(rant_num);
+	
+	// need to download apache commaon lang jar
+	
+	String str=	RandomStringUtils.randomALphabetic(6);
+	System.out.println(str);
+		
+	}
+
+}
