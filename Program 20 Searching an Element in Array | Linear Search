@@ -1,0 +1,29 @@
+package SDTE_Program;
+
+public class Searching_an_Element_in_Array_Linear_Search {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int a[]= {10,20,30,40};
+		
+		int serach_ele=80;
+		
+		boolean flg=false;
+		
+		for(int i=0;i<a.length;i++)
+		{
+			if(serach_ele==a[i])
+			{
+				System.out.println("Element found at :" + i);
+				flg=true;
+				}
+		}
+	if (flg==false)
+	{
+		System.out.println("Not found");
+	}
+	}
+
+}
