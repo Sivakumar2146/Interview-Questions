@@ -1,0 +1,32 @@
+package SDTE_Program;
+
+import java.util.HashSet;
+
+public class How_To_Find_Duplicate_Elements_in_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String arr[]= {"java","C","C++","java"};
+		
+		HashSet <String> langs=new HashSet();
+		
+		boolean flag=false;
+		
+		for(String l:arr)
+		{
+			if(langs.add(l)==false)
+			{
+				System.out.println(" Found Duplicate Element :"+ l);
+				flag=true;
+				
+			}
+		}
+	if(flag==false)
+	{
+		System.out.println("Not found duplicate element");
+	}
+	
+	}
+
+}
