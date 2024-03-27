@@ -1,0 +1,36 @@
+package SDTE_Program;
+
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Sort_Elements_in_Array_Using_Built_in_Methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a[]= {2,9,6,4,8,34,66,20};
+		
+		int a1[]= {2,9,6,4,8,34,66,20};
+		
+		System.out.println("Array before the sorting :"+Arrays.toString(a));
+		
+		Arrays.parallelSort(a);
+
+		System.out.println("Array before the sorting :"+Arrays.toString(a));
+		
+		Arrays.parallelSort(a1);
+
+		
+		System.out.println("Array before the sorting :"+Arrays.toString(a1));
+		
+         Integer a3[]= {2,9,6,4,8,34,66,20};
+		
+		System.out.println("Array before the sorting :"+Arrays.toString(a));
+		
+		Arrays.sort(a3,Collections.reverseOrder());
+		System.out.println("Array before the sorting :"+Arrays.toString(a));
+
+		
+	}
+
+}
