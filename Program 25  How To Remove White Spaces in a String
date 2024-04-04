@@ -1,0 +1,17 @@
+package SDTE_Program;
+
+public class How_To_Remove_White_Spaces_in_a_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str="Python   Automation          Testing           Selenium ";
+		
+		System.out.println("Before the string"+str);
+		
+		str=str.replaceAll("\\s+"," ");
+		
+		System.out.println("After  the string " +str);
+	}
+
+}
