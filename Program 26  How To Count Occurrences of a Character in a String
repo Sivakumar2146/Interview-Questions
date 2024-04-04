@@ -1,0 +1,19 @@
+package SDTE_Program;
+
+public class How_To_Count_Occurrences_of_a_Character_in_a_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String s="Java Programming Java automation";
+	
+	int totalchar=s.length();
+	
+	int repeatch= s.replace("a","").length();
+	
+	int count=totalchar-repeatch;
+	
+	System.out.println(count);
+	
+	}	
+}
