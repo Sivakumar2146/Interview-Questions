@@ -1,20 +1,20 @@
 package SDTE_Program;
 
-public class Factorial_Of_Number {
+public class Sum_Of_Array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int num=49;
-		
-		long factorial=1;
-		
-		for(int i=1;i<=num;i++)
-		{
-			factorial=factorial*i;
-		}
 
-		System.out.println(factorial);
+		int a[]= {10,10,4,5};
+		
+		int sum=0;
+		
+		for(int value:a)
+		{
+			sum=sum+value;
+		}
+		
+		System.out.println(sum);
 	}
 
 }
