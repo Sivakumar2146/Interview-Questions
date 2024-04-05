@@ -1,0 +1,27 @@
+package SDTE_Program;
+
+public class How_To_Reverse_Each_Word_in_a_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str="All they welcome to my party";
+		
+		System.out.println("Before the words:"+str);
+		
+	     String[] words=	str.split("\\s");
+	     
+	     String revword=" ";
+	     
+	     for(String w:words)
+	     {
+	    	 StringBuilder sp=new StringBuilder(w);
+	    	 sp.reverse();
+	    	 
+	    	 revword=revword+sp.toString()+" ";
+	     }
+		System.out.println("Here is the reverse words :" + revword);
+		
+	}
+
+}
